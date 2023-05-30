@@ -4,19 +4,19 @@
 
 ## Overview
 
-* [💡 What we do](overview/what-we-do.md)
 * [✨ Our Features](overview/our-features.md)
 
 ## Product Guides
 
-* [📪 Making a post](product-guides/making-a-post.md)
 * [📎 Understanding Projects](product-guides/understanding-projects.md)
 
 ## Technical Document
 
+* [🔗 Child Accounts](technical-document/child-accounts/README.md)
+  * [🧾 Cadence](technical-document/child-accounts/cadence.md)
 * [🛠 Cadence Template](technical-document/cadence-template/README.md)
-  * [🪙 Fungible Token Cadence Template](technical-document/cadence-template/fungible-token-cadence-template.md)
-  * [🧑 Inviting Members](technical-document/cadence-template/inviting-members.md)
+  * [🪙 Fungible Token](technical-document/cadence-template/fungible-token.md)
+  * [🖼 Non-Fungible Token](technical-document/cadence-template/non-fungible-token.md)
 
 ## Use Cases
 
