@@ -12,11 +12,11 @@
 * [📪 Making a post](product-guides/making-a-post.md)
 * [📎 Understanding Projects](product-guides/understanding-projects.md)
 
-## Fundamentals
+## Technical Document
 
-* [🛠 Getting set up](fundamentals/getting-set-up/README.md)
-  * [📝 Setting permissions](fundamentals/getting-set-up/setting-permissions.md)
-  * [🧑 Inviting Members](fundamentals/getting-set-up/inviting-members.md)
+* [🛠 Cadence Template](technical-document/cadence-template/README.md)
+  * [🪙 Fungible Token Cadence Template](technical-document/cadence-template/fungible-token-cadence-template.md)
+  * [🧑 Inviting Members](technical-document/cadence-template/inviting-members.md)
 
 ## Use Cases
 
