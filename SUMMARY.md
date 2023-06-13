@@ -12,8 +12,8 @@
 
 ## Technical Document
 
-* [🔗 Child Accounts](technical-document/child-accounts/README.md)
-  * [🧾 Cadence](technical-document/child-accounts/cadence.md)
+* [🔗 Hybrid Custody](technical-document/hybrid-custody/README.md)
+  * [🧾 Cadence](technical-document/hybrid-custody/cadence.md)
 * [🛠 Cadence Template](technical-document/cadence-template/README.md)
   * [🪙 Fungible Token](technical-document/cadence-template/fungible-token.md)
   * [🖼 Non-Fungible Token](technical-document/cadence-template/non-fungible-token.md)
