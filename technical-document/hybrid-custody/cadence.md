@@ -1,10 +1,17 @@
 # 🧾 Cadence
 
+### Contract Address
+
 | Contract      | Testnet                                                                                    | Mainnet |
 | ------------- | ------------------------------------------------------------------------------------------ | ------- |
 | HybridCustody | [0x96b15ff6dfde11fe](https://testnet.contractbrowser.com/A.96b15ff6dfde11fe.HybridCustody) | TBD     |
 | MetadataViews | [0x631e88ae7f1d7c20](https://testnet.contractbrowser.com/A.631e88ae7f1d7c20.MetadataViews) | TBD     |
 |               |                                                                                            |         |
+
+### Useful Links
+
+[https://developers.flow.com/concepts/hybrid-custody](https://developers.flow.com/concepts/hybrid-custody)\
+[https://github.com/onflow/hybrid-custody](https://github.com/onflow/hybrid-custody)
 
 ### Get Child Account Metadata
 
