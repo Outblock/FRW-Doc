@@ -13,7 +13,29 @@
 [https://developers.flow.com/concepts/hybrid-custody](https://developers.flow.com/concepts/hybrid-custody)\
 [https://github.com/onflow/hybrid-custody](https://github.com/onflow/hybrid-custody)
 
-### Get Child Account Metadata
+### Get Child Account Metadata (Wallet)
+
+```swift
+import HybridCustody from 0x294e44e1ec6993c6
+import MetadataViews from 0x631e88ae7f1d7c20
+
+pub fun main(parent: Address): {Address: AnyStruct} {
+    let acct = getAuthAccount(parent)
+    let m = acct.borrow<&HybridCustody.Manager>(from: HybridCustody.ManagerStoragePath)
+        ?? panic("manager not found")
+    var data: {Address: AnyStruct} = {}
+    for address in m.getChildAddresses() {
+        let c = m.borrowAccount(addr: address) ?? panic("child not found")
+        let d = c.resolveView(Type<MetadataViews.Display>())
+        data.insert(key: address, d)
+    }
+    return data
+}
+
+
+```
+
+### Get Child Owned Account  Metadata (dApp)
 
 ```swift
 import HybridCustody from 0xHybridCustody
