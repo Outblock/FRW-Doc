@@ -4,7 +4,7 @@
 
 | Contract      | Testnet                                                                                    | Mainnet |
 | ------------- | ------------------------------------------------------------------------------------------ | ------- |
-| HybridCustody | [0x96b15ff6dfde11fe](https://testnet.contractbrowser.com/A.96b15ff6dfde11fe.HybridCustody) | TBD     |
+| HybridCustody | [0x294e44e1ec6993c6](https://f.dnz.dev/0x294e44e1ec6993c6/HybridCustody)                   | TBD     |
 | MetadataViews | [0x631e88ae7f1d7c20](https://testnet.contractbrowser.com/A.631e88ae7f1d7c20.MetadataViews) | TBD     |
 |               |                                                                                            |         |
 
