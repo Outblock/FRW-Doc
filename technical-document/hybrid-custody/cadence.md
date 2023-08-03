@@ -268,11 +268,13 @@ import NonFungibleToken from 0xNonFungibleToken
 
 pub struct CollectionDisplay {
   pub let name: String
-  pub let squareImage: MetadataViews.Media
+  pub let squareImage: String
+  pub let mediaType: String
 
-  init(name: String, squareImage: MetadataViews.Media) {
+  init(name: String, squareImage: String, mediaType: String) {
     self.name = name
     self.squareImage = squareImage
+    self.mediaType = mediaType
   }
 }
 
@@ -315,7 +317,8 @@ pub fun getDisplay(address: Address, path: StoragePath): CollectionDisplay? {
             if let display = MetadataViews.getNFTCollectionDisplay(resolver) {
               item = CollectionDisplay(
                 name: display.name,
-                squareImage: display.squareImage
+                squareImage: display.squareImage.file.uri(),
+                mediaType: display.squareImage.mediaType
               )
             }
           }
