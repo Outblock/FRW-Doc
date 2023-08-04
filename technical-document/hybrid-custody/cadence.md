@@ -114,6 +114,10 @@ transaction(childAddress: Address, name: String, description: String, thumbnail:
 
 ### Create Child Account (Multisig)
 
+<details>
+
+<summary>Cadence Code</summary>
+
 ```swift
 
     #allowAccountLinking
@@ -258,7 +262,13 @@ transaction(childAddress: Address, name: String, description: String, thumbnail:
 
 ```
 
-### Query accessible NFT collection
+</details>
+
+### Query Single ChildAcccount Accessible NFT Collection with Display
+
+<details>
+
+<summary>Cadence Code</summary>
 
 ```swift
 import HybridCustody from 0xHybridCustody
@@ -398,3 +408,305 @@ pub fun main(parent: Address, childAccount: Address): [NFTCollection] {
     return collectionList
 }
 ```
+
+</details>
+
+### Query Single ChildAcccount  Accessible FT collection
+
+<details>
+
+<summary>Cadence Code</summary>
+
+```swift
+import HybridCustody from 0xHybridCustody
+import MetadataViews from 0xMetadataViews
+import FungibleToken from 0xFungibleToken
+import NonFungibleToken from 0xNonFungibleToken
+
+pub struct TokenInfo {
+  pub let id: String
+  pub let balance: UFix64
+
+  init(id: String, balance: UFix64) {
+    self.id = id
+    self.balance = balance
+  }
+}
+
+pub fun main(parent: Address, childAddress: Address): [TokenInfo] {
+    let manager = getAuthAccount(parent).borrow<&HybridCustody.Manager>(from: HybridCustody.ManagerStoragePath) ?? panic ("manager does not exist")
+
+    var typeIdsWithProvider: {Address: [Type]} = {}
+
+    var coinInfoList: [TokenInfo] = []
+    let providerType = Type<Capability<&{FungibleToken.Provider}>>()
+    let vaultType: Type = Type<@FungibleToken.Vault>()
+
+    // Iterate through child accounts
+
+        let acct = getAuthAccount(childAddress)
+        let foundTypes: [Type] = []
+        let vaultBalances: {String: UFix64} = {}
+        let childAcct = manager.borrowAccount(addr: childAddress) ?? panic("child account not found")
+        // get all private paths
+        acct.forEachPrivate(fun (path: PrivatePath, type: Type): Bool {
+            // Check which private paths have NFT Provider AND can be borrowed
+            if !type.isSubtype(of: providerType){
+                return true
+            }
+            if let cap = childAcct.getCapability(path: path, type: Type<&{FungibleToken.Provider}>()) {
+                let providerCap = cap as! Capability<&{FungibleToken.Provider}> 
+
+                if !providerCap.check(){
+                    // if this isn't a provider capability, exit the account iteration function for this path
+                    return true
+                }
+                foundTypes.append(cap.borrow<&AnyResource>()!.getType())
+            }
+            return true
+        })
+        typeIdsWithProvider[childAddress] = foundTypes
+
+        // iterate storage, check if typeIdsWithProvider contains the typeId, if so, add to vaultBalances
+        acct.forEachStored(fun (path: StoragePath, type: Type): Bool {
+
+            if typeIdsWithProvider[childAddress] == nil {
+                return true
+            }
+
+            for key in typeIdsWithProvider.keys {
+                for idx, value in typeIdsWithProvider[key]! {
+                    let value = typeIdsWithProvider[key]!
+
+                    if value[idx] != type {
+                        continue
+                    } else {
+                        if type.isInstance(vaultType) {
+                            continue
+                        }
+                        if let vault = acct.borrow<&FungibleToken.Vault>(from: path) { 
+                            coinInfoList.append(
+                              TokenInfo(id: type.identifier, balance: vault.balance)
+                            )
+                        }
+                        continue
+                    }
+                }
+            }
+            return true
+        })
+    
+    return coinInfoList
+}
+```
+
+</details>
+
+### Query Single ChildAcccount Accessible NFT Collection ID
+
+<details>
+
+<summary>Cadence Code</summary>
+
+```swift
+import HybridCustody from 0xHybridCustody
+import MetadataViews from 0xMetadataViews
+import FungibleToken from 0xFungibleToken
+import NonFungibleToken from 0xNonFungibleToken
+
+pub struct NFTInfo {
+  pub let id: String
+  pub let idList: [UInt64]
+
+  init(id: String, idList: [UInt64]) {
+    self.id = id
+    self.idList = idList
+  }
+}
+
+pub struct ChildNFTInfo {
+  pub let address: Address
+  pub let info: [NFTInfo]
+
+  init(address: Address, info: [NFTInfo]) {
+    self.address = address
+    self.info = info
+  }
+}
+
+pub fun main(parent: Address, child: Address): ChildNFTInfo {
+    let manager = getAuthAccount(parent).borrow<&HybridCustody.Manager>(from: HybridCustody.ManagerStoragePath) ?? panic ("manager does not exist")
+
+    var typeIdsWithProvider: {Address: [Type]} = {}
+
+    let providerType = Type<Capability<&{NonFungibleToken.Provider}>>()
+    let collectionType: Type = Type<@{NonFungibleToken.CollectionPublic}>()
+
+    // Iterate through child accounts
+
+        let acct = getAuthAccount(child)
+        let foundTypes: [Type] = []
+        let nfts: [NFTInfo] = []
+        let childAcct = manager.borrowAccount(addr: child) ?? panic("child account not found")
+        // get all private paths
+        acct.forEachPrivate(fun (path: PrivatePath, type: Type): Bool {
+            // Check which private paths have NFT Provider AND can be borrowed
+            if !type.isSubtype(of: providerType){
+                return true
+            }
+            if let cap = childAcct.getCapability(path: path, type: Type<&{NonFungibleToken.Provider}>()) {
+                let providerCap = cap as! Capability<&{NonFungibleToken.Provider}> 
+
+                if !providerCap.check(){
+                    // if this isn't a provider capability, exit the account iteration function for this path
+                    return true
+                }
+                foundTypes.append(cap.borrow<&AnyResource>()!.getType())
+            }
+            return true
+        })
+        typeIdsWithProvider[child] = foundTypes
+
+        // iterate storage, check if typeIdsWithProvider contains the typeId, if so, add to nfts
+        acct.forEachStored(fun (path: StoragePath, type: Type): Bool {
+
+            if typeIdsWithProvider[child] == nil {
+                return true
+            }
+
+            for key in typeIdsWithProvider.keys {
+                for idx, value in typeIdsWithProvider[key]! {
+                    let value = typeIdsWithProvider[key]!
+
+                    if value[idx] != type {
+                        continue
+                    } else {
+                        if type.isInstance(collectionType) {
+                            continue
+                        }
+                        if let collection = acct.borrow<&{NonFungibleToken.CollectionPublic}>(from: path) { 
+                            nfts.append(
+                              NFTInfo(id: type.identifier, idList: collection.getIDs())
+                            )
+                        }
+                        continue
+                    }
+                }
+            }
+            return true
+        })
+
+    return ChildNFTInfo(address: child, info: nfts)
+}
+```
+
+</details>
+
+
+
+### Query All ChildAccount Accessible NFT Collections ID
+
+<details>
+
+<summary>Cadence Code</summary>
+
+```swift
+import HybridCustody from 0xHybridCustody
+import MetadataViews from 0xMetadataViews
+import FungibleToken from 0xFungibleToken
+import NonFungibleToken from 0xNonFungibleToken
+
+pub struct NFTInfo {
+  pub let id: String
+  pub let idList: [UInt64]
+
+  init(id: String, idList: [UInt64]) {
+    self.id = id
+    self.idList = idList
+  }
+}
+
+pub struct ChildNFTInfo {
+  pub let address: Address
+  pub let info: [NFTInfo]
+
+  init(address: Address, info: [NFTInfo]) {
+    self.address = address
+    self.info = info
+  }
+}
+
+pub fun main(parent: Address): [ChildNFTInfo] {
+    let manager = getAuthAccount(parent).borrow<&HybridCustody.Manager>(from: HybridCustody.ManagerStoragePath) ?? panic ("manager does not exist")
+
+    var typeIdsWithProvider: {Address: [Type]} = {}
+
+    // Address -> Collection Type -> ownedNFTs
+    var accessibleNFTs: [ChildNFTInfo]  = []
+
+    let providerType = Type<Capability<&{NonFungibleToken.Provider}>>()
+    let collectionType: Type = Type<@{NonFungibleToken.CollectionPublic}>()
+
+    // Iterate through child accounts
+    for address in manager.getChildAddresses() {
+        let acct = getAuthAccount(address)
+        let foundTypes: [Type] = []
+        let nfts: [NFTInfo] = []
+        let childAcct = manager.borrowAccount(addr: address) ?? panic("child account not found")
+        // get all private paths
+        acct.forEachPrivate(fun (path: PrivatePath, type: Type): Bool {
+            // Check which private paths have NFT Provider AND can be borrowed
+            if !type.isSubtype(of: providerType){
+                return true
+            }
+            if let cap = childAcct.getCapability(path: path, type: Type<&{NonFungibleToken.Provider}>()) {
+                let providerCap = cap as! Capability<&{NonFungibleToken.Provider}> 
+
+                if !providerCap.check(){
+                    // if this isn't a provider capability, exit the account iteration function for this path
+                    return true
+                }
+                foundTypes.append(cap.borrow<&AnyResource>()!.getType())
+            }
+            return true
+        })
+        typeIdsWithProvider[address] = foundTypes
+
+        // iterate storage, check if typeIdsWithProvider contains the typeId, if so, add to nfts
+        acct.forEachStored(fun (path: StoragePath, type: Type): Bool {
+
+            if typeIdsWithProvider[address] == nil {
+                return true
+            }
+
+            for key in typeIdsWithProvider.keys {
+                for idx, value in typeIdsWithProvider[key]! {
+                    let value = typeIdsWithProvider[key]!
+
+                    if value[idx] != type {
+                        continue
+                    } else {
+                        if type.isInstance(collectionType) {
+                            continue
+                        }
+                        if let collection = acct.borrow<&{NonFungibleToken.CollectionPublic}>(from: path) { 
+                            nfts.append(
+                              NFTInfo(id: type.identifier, idList: collection.getIDs())
+                            )
+                        }
+                        continue
+                    }
+                }
+            }
+            return true
+        })
+        accessibleNFTs.append(
+          ChildNFTInfo(address: address, info: nfts)
+        )
+    }
+    return accessibleNFTs
+}
+```
+
+</details>
+
