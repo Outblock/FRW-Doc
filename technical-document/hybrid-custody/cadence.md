@@ -290,11 +290,13 @@ pub struct CollectionDisplay {
 
 pub struct NFTCollection {
   pub let id: String
+  pub let path: String
   pub let display: CollectionDisplay?
   pub let idList: [UInt64]
 
-  init(id:String, display: CollectionDisplay?, idList: [UInt64]) {
+  init(id:String, path: String, display: CollectionDisplay?, idList: [UInt64]) {
     self.id = id
+    self.path = path
     self.display = display
     self.idList = idList
   }
@@ -394,6 +396,7 @@ pub fun main(parent: Address, childAccount: Address): [NFTCollection] {
                     collectionList.append(
                       NFTCollection(
                         id: type.identifier,
+                        path: path.toString(),
                         display: getDisplay(address: childAccount, path: path),
                         idList: collection.getIDs()
                       )
