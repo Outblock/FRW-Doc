@@ -14,3 +14,7 @@
 ## 🖥 Ecosystem Development
 
 * [🛠 Ecosystem Developer Grants](ecosystem-development/ecosystem-developer-grants.md)
+
+## Ecosystem Primers
+
+* [⭐ Flow Reference Wallet Primer](ecosystem-primers/flow-reference-wallet-primer.md)
