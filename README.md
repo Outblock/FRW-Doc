@@ -1,25 +1,49 @@
 ---
-description: The First Open-Source Self-Custody Crypto Wallet on Flow Blockchain
+description: >-
+  A reference wallet created ‍for everyone. Trusted. Battle-tested. Beautifully
+  designed.
+cover: .gitbook/assets/64d3dd501a8ffd8b19b928a1_Banner (3).png
+coverY: 94
 ---
 
-# 👋 Welcome to Lilico
+# 👋 Welcome to Flow Reference Wallet
 
+## Introduction
 
+Flow Foundation is proud to unveil Flow Reference Wallet; a new self-custodial wallet designed to serve as a beacon to the Flow ecosystem, guiding wallets with an open-source implementation of the novel and unique product opportunities for wallets on the Flow blockchain. Flow Reference Wallet sets a new standard for wallet development on Flow by promoting a robust and secure, open-source, community-led foundation for wallet developers to build on.
 
-## Overview
+### Features
 
-Introducing Lilico, the revolutionary crypto wallet built on the Flow blockchain. With Lilico, you can securely manage and store your digital assets while maintaining full control over your funds. As the first open-source self-custody wallet on Flow, Lilico empowers users to take charge of their financial future and participate in the exciting world of cryptocurrencies.
-
-## Quick links
-
-{% content-ref url="overview/our-features.md" %}
-[our-features.md](overview/our-features.md)
+{% content-ref url="features/account-recovery.md" %}
+[account-recovery.md](features/account-recovery.md)
 {% endcontent-ref %}
 
-## Technical Document
-
-We've put together some helpful guides for you to get setup with our product quickly and easily.
-
-{% content-ref url="technical-document/cadence-template/" %}
-[cadence-template](technical-document/cadence-template/)
+{% content-ref url="features/secure-enclave.md" %}
+[secure-enclave.md](features/secure-enclave.md)
 {% endcontent-ref %}
+
+{% content-ref url="features/flow-client-library-fcl-support.md" %}
+[flow-client-library-fcl-support.md](features/flow-client-library-fcl-support.md)
+{% endcontent-ref %}
+
+{% content-ref url="features/account-linking.md" %}
+[account-linking.md](features/account-linking.md)
+{% endcontent-ref %}
+
+{% content-ref url="features/walletconnect.md" %}
+[walletconnect.md](features/walletconnect.md)
+{% endcontent-ref %}
+
+{% content-ref url="features/human-readable-transactions.md" %}
+[human-readable-transactions.md](features/human-readable-transactions.md)
+{% endcontent-ref %}
+
+### Ecosystem Development
+
+{% content-ref url="ecosystem-development/ecosystem-developer-grants.md" %}
+[ecosystem-developer-grants.md](ecosystem-development/ecosystem-developer-grants.md)
+{% endcontent-ref %}
+
+### Ecosystem Primer
+
+{% embed url="https://core.flow.com/wallet-primer" %}

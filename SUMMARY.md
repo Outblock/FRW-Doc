@@ -1,24 +1,16 @@
 # Table of contents
 
-* [👋 Welcome to Lilico](README.md)
+* [👋 Welcome to Flow Reference Wallet](README.md)
 
-## Overview
+## 💡 Features
 
-* [✨ Our Features](overview/our-features.md)
+* [⛓ Account Linking](features/account-linking.md)
+* [🔌 WalletConnect](features/walletconnect.md)
+* [📖 Human Readable Transactions](features/human-readable-transactions.md)
+* [💚 Flow Client Library (FCL) support](features/flow-client-library-fcl-support.md)
+* [🔓 Secure Enclave](features/secure-enclave.md)
+* [🦺 Account Recovery](features/account-recovery.md)
 
-## Product Guides
+## 🖥 Ecosystem Development
 
-* [📎 Understanding Projects](product-guides/understanding-projects.md)
-
-## Technical Document
-
-* [🔗 Hybrid Custody](technical-document/hybrid-custody/README.md)
-  * [🧾 Cadence](technical-document/hybrid-custody/cadence.md)
-* [🛠 Cadence Template](technical-document/cadence-template/README.md)
-  * [🪙 Fungible Token](technical-document/cadence-template/fungible-token.md)
-  * [🖼 Non-Fungible Token](technical-document/cadence-template/non-fungible-token.md)
-
-## Use Cases
-
-* [🎨 For Designers](use-cases/for-designers.md)
-* [🖥 For Developers](use-cases/for-developers.md)
+* [🛠 Ecosystem Developer Grants](ecosystem-development/ecosystem-developer-grants.md)
