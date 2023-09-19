@@ -30,7 +30,7 @@ By understanding the pros and cons of Secure Enclave on iPhone, wallet developer
 
 #### Cons
 
-1. **Limited Functionality**: The Secure Enclave on iOS **only** support P-256 elliptic curve for cryptographic operations, which includes digital signature and key agreement algorithms.
+1. **Limited Functionality**: The Secure Enclave on iOS **only** supports the P-256 elliptic curve for cryptographic operations, which includes digital signature and key agreement algorithms.
 2. **Hardware Limitations**: The Secure Enclave is only available on certain devices, and requires specific hardware components to function properly. This means that it may not be available or practical to use on all devices.
 3. **Risk of Losing Access to Private Keys**: If a user loses their mobile device, the private key stored in the Secure Enclave will also be lost. This is because the Secure Enclave is tied to the specific device and is not transferable to other devices. Therefore, users must take appropriate measures to protect their devices and backup their data, including their private keys, to avoid losing access to their accounts and data.
 
@@ -38,9 +38,9 @@ While the Secure Enclave is a secure and effective way to protect sensitive data
 
 **Flow's Advantage in Using iPhone's Secure Enclave**
 
-Flow blockchain has a native solution to the challenge of losing access to private keys. It supports account abstraction natively, which decouples the address and private key, allowing users or dApps to add multiple keys with varying weights to the same account. This approach provides greater flexibility and security in managing cryptographic operations, while also reducing the risk of losing access to private keys.
+Flow blockchain has a native solution to the challenge of losing access to private keys. It supports account abstraction natively, which decouples the address and private keys, allowing users and wallets to add multiple keys with varying weights to the same account. This approach provides greater flexibility and security in managing cryptographic operations, while also reducing the risk of losing access to private keys.
 
-For instance, dApps or wallets can add backup keys such as social recovery keys, custody account keys, or seed phrase keys to the same accounts, in addition to secure enclave keys. This provides additional layers of security and accessibility to users, enhancing the overall experience of using Flow blockchain.
+For instance, wallets can add backup keys such as social recovery keys, custody account keys, or seed phrase keys to the same accounts, in addition to secure enclave keys. These [account recovery mechanisms](account-recovery.md) provide additional layers of security and accessibility to users, enhancing the overall experience of using Flow.
 
 Moreover, Flow offers another solution for this issue through its [account linking](account-linking.md) feature. By linking existing accounts as child accounts to a user's main account as the parent account, if a user loses access to their child account, they can still withdraw and manage their child account assets through the parent account.
 
