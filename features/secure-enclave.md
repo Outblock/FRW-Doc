@@ -27,6 +27,7 @@ By understanding the pros and cons of Secure Enclave on iPhone, wallet developer
 1. **Enhanced Security**: The Secure Enclave is a type of Hardware Security Module (HSM) that provides a robust layer of hardware-based security, making it more difficult for attackers to gain unauthorized access to sensitive information.
 2. **Ease of Use**: Using the Secure Enclave is generally quite easy and straightforward for developers, as it is integrated into the operating system of the mobile device. This makes it an attractive option for developers who want to add an extra layer of security to their apps without having to invest a lot of time or effort.
 3. **Protection Against Physical Attacks**: Secure Enclave on iPhone is designed to be tamper-resistant, which means that it can protect sensitive information even if the mobile device is stolen or lost. This is because the Secure Enclave is tied to a specific device and is not transferable to other devices, making it difficult for attackers to access the information stored in it.
+4. **Increased Privacy**: Secure Enclave provides a privacy and security-sensitive option for users who wish to custody their keys using their own hardware instead of relying on cloud backups or custodial service providers.&#x20;
 
 #### Cons
 
