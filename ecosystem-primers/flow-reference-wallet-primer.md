@@ -60,7 +60,7 @@ In order to highlight the intrinsic value of Flow's design and promote the broad
 **Account Key Management**\
 \- As a **User**, I want to use the specialized secure enclave hardware on my iPhone to securely manage my Flow account keys to achieve self-custody of my accounts and assets.\
 \
-**Account Key Management**\
+**Account Storage Management**\
 \- As a **User**, I want to be able to manage my account(s) storage, view the assets that are contained, and perform actions upon those assets such as relocation, transfer, deletion, etc.\
 \
 **Account Linking Management**\
@@ -82,7 +82,7 @@ In order to highlight the intrinsic value of Flow's design and promote the broad
 **‍**\
 When users are prompted for authorization during a transaction, they are frequently presented with complex and bewildering information, leading to confusion and increased user friction. This obscurity has unfortunately paved the way for numerous attacks, resulting in significant losses for unsuspecting victims.\
 \
-Given the novelty of this concept, it's crucial to present it intuitively to users. This entails wallet interfaces displaying a clear list of linked accounts, along with the corresponding applications they are associated with. Additionally, Flow wallets should provide the option to unlink accounts, giving users full control over their account management preferences and child account assets.On Flow, with interaction templates ([https://developers.flow.com/tooling/fcl-js/interaction-templates](https://developers.flow.com/tooling/fcl-js/interaction-templates)), Cadence developers have a means to declare static metadata about transactions they ask users to sign. This information is vital to understanding the outcome of the request and may include data such as a human-readable title and description.\
+Given the novelty of this concept, it's crucial to present it intuitively to users. This entails wallet interfaces displaying a clear list of linked accounts, along with the corresponding applications they are associated with. Additionally, Flow wallets should provide the option to unlink accounts, giving users full control over their account management preferences and child account assets. On Flow, with interaction templates ([https://developers.flow.com/tooling/fcl-js/interaction-templates](https://developers.flow.com/tooling/fcl-js/interaction-templates)), Cadence developers have a means to declare static metadata about transactions they ask users to sign. This information is vital to understanding the outcome of the request and may include data such as a human-readable title and description.\
 \
 Interaction template auditors play a crucial role in assessing the accuracy and safety of these templates. Wallets can harness interaction template audits to confidently present users with clear, human-readable transaction titles and descriptions during the authorization process. This approach eliminates the need for users to decipher unintelligible authorization prompts, ensuring they receive and understand important information and can confidently sign and approve.\
 \
@@ -92,7 +92,7 @@ For more on how application developers and wallets can use Interaction Templates
 \
 **Account Linking**\
 \
-Accounts on Flow can be linked to create an association between them. This provides many benefits, including improved user onboarding to applications on Flow. Users can sign up for an app via traditional means (email/password, social login, OAuth, etc.), while Flow account creation and key custody are handled by the application. When a user becomes familiar with the concepts of true ownership and asset portability on Flow they may decide to create their self custody wallet. The application would provide the means to claim the original (“child”) account by linking their new (“parent”) account and delegating access control. In this way, users can claim custody and gain control of assets stored in the application account for use across the Flow ecosystem. Wallets are encouraged to add support for account linking to improve user experience and allow management and visualization of all user-controlled accounts.\
+Accounts on Flow can be linked to create an association between them. This provides many benefits, including improved user onboarding to applications on Flow. Users can sign up for an app via traditional means (email/password, social login, OAuth, etc.), while Flow account creation and key custody are handled by the application. When users become familiar with the concepts of true ownership and asset portability on Flow, they may create their self custody wallet. The application would provide the means to claim the original (“child”) account by linking their new (“parent”) account and delegating access control. In this way, users can claim custody and gain control of assets stored in the application account for use across the Flow ecosystem. Wallets are encouraged to add support for account linking to improve user experience and allow management and visualization of all user-controlled accounts.\
 \
 For more information on Account Linking, see: [https://developers.flow.com/concepts/hybrid-custody](https://developers.flow.com/concepts/hybrid-custody)[\
 \

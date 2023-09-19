@@ -48,8 +48,8 @@ The Flow Reference Wallet ecosystem primer document explains the purpose of Flow
 [human-readable-transactions.md](features/human-readable-transactions.md)
 {% endcontent-ref %}
 
-{% content-ref url="features/flow-client-library-fcl-support.md" %}
-[flow-client-library-fcl-support.md](features/flow-client-library-fcl-support.md)
+{% content-ref url="features/flow-client-library-fcl.md" %}
+[flow-client-library-fcl.md](features/flow-client-library-fcl.md)
 {% endcontent-ref %}
 
 {% content-ref url="features/secure-enclave.md" %}

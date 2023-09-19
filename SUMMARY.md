@@ -11,7 +11,7 @@
 * [⛓ Account Linking](features/account-linking.md)
 * [🔌 WalletConnect](features/walletconnect.md)
 * [📖 Human Readable Transactions](features/human-readable-transactions.md)
-* [💚 Flow Client Library (FCL) support](features/flow-client-library-fcl-support.md)
+* [💚 Flow Client Library (FCL)](features/flow-client-library-fcl.md)
 * [🔓 Secure Enclave](features/secure-enclave.md)
 * [🦺 Account Recovery](features/account-recovery.md)
 
