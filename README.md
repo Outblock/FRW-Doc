@@ -16,7 +16,7 @@ Flow Foundation is proud to unveil Flow Reference Wallet; a new self-custodial w
 
 **iOS**
 
-{% embed url="https://apps.apple.com/us/app/lilico/id1644169603" %}
+{% embed url="https://apps.apple.com/us/app/lilico/id1644169603" fullWidth="false" %}
 
 **Android**
 
