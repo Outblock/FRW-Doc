@@ -4,6 +4,7 @@
 
 ## Ecosystem Primers
 
+* [🔑 Secure Enclave Primer](ecosystem-primers/secure-enclave-primer.md)
 * [⭐ Flow Reference Wallet Primer](ecosystem-primers/flow-reference-wallet-primer.md)
 
 ## Features
