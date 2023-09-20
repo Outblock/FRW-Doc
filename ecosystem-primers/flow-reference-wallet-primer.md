@@ -2,15 +2,15 @@
 
 **Introduction**\
 \
-Flow Foundation is proud to unveil **Flow Reference Wallet**; a new self-custodial wallet designed to serve as a beacon to the Flow ecosystem, guiding wallets with an open-source implementation of the novel and unique product opportunities for wallets on the Flow blockchain. Flow Reference Wallet sets a new standard for wallet development on Flow by promoting a robust and secure, open-source, community-led foundation for wallet developers to build on.\
+Flow is proud to unveil **Flow Reference Wallet**; a new self-custodial wallet designed to serve as a beacon to the Flow ecosystem, guiding wallets with an open-source implementation of the novel and unique product opportunities for wallets on the Flow blockchain. Flow Reference Wallet sets a new standard for wallet development on Flow by promoting a robust and secure, open-source, community-led foundation for wallet developers to build on.\
 \
 Flow Reference Wallet is available on iOS, and Android. A Chrome Extension can be installed for web support. The release of Flow Reference Wallet marks a significant step towards enhancing user self-custody and ensuring the secure management of assets on the Flow blockchain. It unlocks powerful native features of Flow’s account abstraction model, and transaction model, and provides opportunities for developers to build apps with composable assets and extensible, interoperable mechanics.\
 \
-This document explains the background behind why Flow Foundation built this new wallet and goes into the wallet's key features, including secure key management, account abstraction support, account linking, and the unique possibilities they unlock for user experience and safety, all to advance Web3 adoption and empower users with true ownership of their assets.\
+This document explains the background behind why Flow built this new wallet and goes into the wallet's key features, including secure key management, account abstraction support, account linking, and the unique possibilities they unlock for user experience and safety, all to advance Web3 adoption and empower users with true ownership of their assets.\
 \
 **Background**\
 **‍**\
-This document explains the background behind why Flow Foundation built this new wallet and goes into the wallet's key features, including secure key management, account abstraction support, account linking, and the unique possibilities they unlock for user experience and safety, all to advance Web3 adoption and empower users with true ownership of their assets.\
+This document explains the background behind why Flow built this new wallet and goes into the wallet's key features, including secure key management, account abstraction support, account linking, and the unique possibilities they unlock for user experience and safety, all to advance Web3 adoption and empower users with true ownership of their assets.\
 \
 Enabling users to safely self-custody their assets is important as it allows them to enjoy true ownership of their assets on Flow. Flow needs secure wallets that address the current drawbacks of self-custody, and solve the common cases of user error while lowering the technical complexity of maintaining a self-custody account.\
 \
@@ -78,7 +78,7 @@ In order to highlight the intrinsic value of Flow's design and promote the broad
 **Account Recovery**\
 \- As a **User**, I want to be able to recover my account if I lose access to a set of my account’s keys to recover access to the account and the assets it contains.\
 \
-**Transaction Authorization**\
+**Human Readable Transaction Authorization**\
 **‍**\
 When users are prompted for authorization during a transaction, they are frequently presented with complex and bewildering information, leading to confusion and increased user friction. This obscurity has unfortunately paved the way for numerous attacks, resulting in significant losses for unsuspecting victims.\
 \
@@ -132,7 +132,7 @@ For more on Flow capability controllers, see: [https://github.com/onflow/flips/b
 \
 ](https://developers.flow.com/tooling/fcl-js/interaction-templates)**Ecosystem Lighthouse Wallet**\
 \
-The Flow Foundation is creating a new wallet offering on Flow, **Flow Reference Wallet**. This wallet will act as an ecosystem lighthouse that will progress toward implementing the specified unique product possibilities for Flow. It will launch with the majority of its codebase open source, with the goal of progressing to becoming entirely open source. The intention for this wallet is to provide an example for other wallet developers on Flow of what is possible, while also providing them with open-source code that can be used by them to replicate and build upon. This wallet will be released on the Apple App Store, Google Play, and Chrome Extension Store for consumer use. The Flow Foundation intends for this wallet to be an ecosystem project, with community grants available to further its development. Ultimately, this wallet will demonstrate the product possibilities for wallets on Flow, while acting to inspire and promote wallet developers to implement these features in their wallet offerings.\
+The Flow is creating a new wallet offering on Flow, **Flow Reference Wallet**. This wallet will act as an ecosystem lighthouse that will progress toward implementing the specified unique product possibilities for Flow. It will launch with the majority of its codebase open source, with the goal of progressing to becoming entirely open source. The intention for this wallet is to provide an example for other wallet developers on Flow of what is possible, while also providing them with open-source code that can be used by them to replicate and build upon. This wallet will be released on the Apple App Store, Google Play, and Chrome Extension Store for consumer use. The Flow intends for this wallet to be an ecosystem project, with community grants available to further its development. Ultimately, this wallet will demonstrate the product possibilities for wallets on Flow, while acting to inspire and promote wallet developers to implement these features in their wallet offerings.\
 \
 **Development Timeline**\
 \
@@ -150,7 +150,7 @@ With the release of the Flow Reference Wallet, Flow application developers and u
 \
 **Commitment**\
 \
-Flow Foundation is committed to an open, thriving ecosystem of wallets on Flow. As such, Flow Reference Wallet’s purpose is to promote ecosystem wallet development on Flow by providing open-source examples and materials of Flow’s key product possibilities for wallets. Flow Reference Wallet will not partake in any application or project partnerships, nor will it act as a revenue-generating product. Flow Reference Wallet is intended to be a reference wallet, and is not positioned long term to be the primary wallet for end consumers in Flow’s ecosystem; rather, it’s intended to support ecosystem wallets to build better products to further their and Flow’s adoption.\
+Flow is committed to an open, thriving ecosystem of wallets on Flow. As such, Flow Reference Wallet’s purpose is to promote ecosystem wallet development on Flow by providing open-source examples and materials of Flow’s key product possibilities for wallets. Flow Reference Wallet will not partake in any application or project partnerships, nor will it act as a revenue-generating product. Flow Reference Wallet is intended to be a reference wallet, and is not positioned long term to be the primary wallet for end consumers in Flow’s ecosystem; rather, it’s intended to support ecosystem wallets to build better products to further their and Flow’s adoption.\
 \
 **Conclusion**\
 \
@@ -167,3 +167,6 @@ telegram: @jeffjeffjeffjeffjeffjeffjeff\
 **Working Group**\
 \
 Flow has an open working group dedicated to furthering the development of wallets on Flow. If you’d like to join this working group please email wallet-wg@flowfoundation.com to be added to the recurring meeting.
+
+
+
