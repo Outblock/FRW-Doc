@@ -14,17 +14,14 @@ Flow Foundation is proud to unveil Flow Reference Wallet; a new self-custodial w
 
 ## Download
 
-**iOS**
+**iOS**\
+[**https://apps.apple.com/ca/app/flow-core/id1644169603**](https://apps.apple.com/ca/app/flow-core/id1644169603)
 
-{% embed url="https://apps.apple.com/us/app/lilico/id1644169603" fullWidth="false" %}
+**Android**\
+[**https://play.google.com/store/apps/details?id=io.outblock.lilico\&hl=en\_US\&gl=US**](https://play.google.com/store/apps/details?id=io.outblock.lilico\&hl=en\_US\&gl=US)
 
-**Android**
-
-{% embed url="https://play.google.com/store/apps/details?gl=US&hl=en_US&id=io.outblock.lilico" %}
-
-**Chrome Extension**
-
-{% embed url="https://chrome.google.com/webstore/detail/lilico/hpclkefagolihohboafpheddmmgdffjm" %}
+**Chrome Extension**\
+[**https://chrome.google.com/webstore/detail/flow-core/hpclkefagolihohboafpheddmmgdffjm**](https://chrome.google.com/webstore/detail/flow-core/hpclkefagolihohboafpheddmmgdffjm)
 
 ### Ecosystem Primer
 
