@@ -22,3 +22,7 @@
 ## Download
 
 * [📲 Download](download/download.md)
+
+## Open Source
+
+* [💽 Open Source](open-source/open-source.md)
