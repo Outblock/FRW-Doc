@@ -8,7 +8,7 @@
 
 ## Features
 
-* [⛓ Account Linking](features/account-linking.md)
+* [⛓️ Account Linking](features/account-linking.md)
 * [🔌 WalletConnect](features/walletconnect.md)
 * [📖 Human Readable Transactions](features/human-readable-transactions.md)
 * [💚 Flow Client Library (FCL)](features/flow-client-library-fcl.md)
@@ -17,7 +17,7 @@
 
 ## Ecosystem Development
 
-* [🛠 Ecosystem Developer Grants](ecosystem-development/ecosystem-developer-grants.md)
+* [🛠️ Ecosystem Developer Grants](ecosystem-development/ecosystem-developer-grants.md)
 
 ## Download
 
