@@ -1,9 +1,5 @@
 # 🔓 Secure Enclave
 
-{% hint style="info" %}
-Flow Reference Wallet doesn't support this feature yet. Support is coming soon!
-{% endhint %}
-
 Flow’s account abstraction deliberately supports ECDSA P-256 keys which are also supported by the Secure Enclave hardware on iPhone. \
 \
 **What is a Secure Enclave?**
