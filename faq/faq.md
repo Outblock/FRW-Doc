@@ -18,7 +18,7 @@ On Flow Wallet iOS and Android, Flow Wallet supports your device's Secure Enclav
 
 On Flow Wallet iOS and Android, Flow Wallet supports your device's Secure Enclave for securing your account and assets. This means you don't need a seed phrase to secure your account on Flow Wallet iOS or Android. Instead, Flow Wallet uses your device's specialized secure hardware to secure your account. It's important your create a Multi-Backup to ensure your account is recoverable in the event you lose access to your device. You can create a Multi-Backup by navigating to Settings > Backup > Create Multi-Backup.
 
-### What is Multi-Backup?
+### What is Multi-Backup? <a href="#faq-what-is-multi-backup" id="faq-what-is-multi-backup"></a>
 
 **Answer**: Flow Wallet is a self-custodial wallet. This means you own, control and are responsible for the security of the cryptographic keys that secure your Flow accounts and assets with Flow Wallet.&#x20;
 
