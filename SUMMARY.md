@@ -1,10 +1,14 @@
 # Table of contents
 
-* [👋 Welcome to Flow Reference Wallet](README.md)
+* [👋 Welcome to Flow Wallet](README.md)
 
 ## Ecosystem Primers
 
 * [⭐ Flow Reference Wallet Primer](ecosystem-primers/flow-reference-wallet-primer.md)
+
+## FAQ
+
+* [❓ FAQ](faq/faq.md)
 
 ## Features
 

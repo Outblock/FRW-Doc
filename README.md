@@ -6,11 +6,11 @@ cover: .gitbook/assets/64d3dd501a8ffd8b19b928a1_Banner (3).png
 coverY: 94
 ---
 
-# 👋 Welcome to Flow Reference Wallet
+# 👋 Welcome to Flow Wallet
 
 ## Introduction
 
-Flow Foundation is proud to unveil Flow Reference Wallet; a new self-custodial wallet designed to serve as a beacon to the Flow ecosystem, guiding wallets with an open-source implementation of the novel and unique product opportunities for wallets on the Flow blockchain. Flow Reference Wallet sets a new standard for wallet development on Flow by promoting a robust and secure, open-source, community-led foundation for wallet developers to build on.
+Flow Foundation is proud to unveil Flow Wallet; a new self-custodial wallet designed to serve as a beacon to the Flow ecosystem, guiding wallets with an open-source implementation of the novel and unique product opportunities for wallets on the Flow blockchain. Flow Wallet sets a new standard for wallet development on Flow by promoting a robust and secure, open-source, community-led foundation for wallet developers to build on.
 
 ## Download
 
@@ -25,7 +25,7 @@ Flow Foundation is proud to unveil Flow Reference Wallet; a new self-custodial w
 
 ### Ecosystem Primer
 
-The Flow Reference Wallet ecosystem primer document explains the purpose of Flow Reference Wallet and what Flow Foundation aims to achieve with it.
+The Flow Wallet ecosystem primer document explains the purpose of Flow Wallet and what Flow Foundation aims to achieve with it.
 
 {% content-ref url="ecosystem-primers/flow-reference-wallet-primer.md" %}
 [flow-reference-wallet-primer.md](ecosystem-primers/flow-reference-wallet-primer.md)
