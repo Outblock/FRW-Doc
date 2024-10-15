@@ -30,3 +30,8 @@
 ## Open Source
 
 * [💽 Open Source](open-source/open-source.md)
+
+## 👩‍🏫 Tutorial
+
+* [🔐 Wallet Backup Guide](tutorial/wallet-backup-guide.md)
+* [💸 Move Assets between Flow and EVM](tutorial/move-assets-between-flow-and-evm.md)
