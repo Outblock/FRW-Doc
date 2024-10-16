@@ -33,5 +33,11 @@
 
 ## Tutorial
 
-* [🔐 Wallet Backup Guide](tutorial/wallet-backup-guide.md)
+* [🔐 Mobile Wallet Backup Guide](tutorial/mobile-wallet-backup-guide.md)
 * [💸 Move Assets between Flow and EVM](tutorial/move-assets-between-flow-and-evm.md)
+
+***
+
+* [📱 Mobile Wallet Restore Guide](mobile-wallet-restore-guide.md)
+* [💻 Extension Wallet Backup Guide](extension-wallet-backup-guide.md)
+* [🖥️ Extension Wallet Restore Guide](extension-wallet-restore-guide.md)
