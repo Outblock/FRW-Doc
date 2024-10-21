@@ -40,6 +40,10 @@ You can back up in your Google Drive in two ways:
 
 </div>
 
+After you’ve completed all the above steps, you’ll find that the backup has been successfully add in your FLOW wallet. This means you’re now ready to restore your account as needed!
+
+<figure><img src=".gitbook/assets/Screen Shot 2024-10-21 at 11.54.26 am.png" alt="" width="375"><figcaption></figcaption></figure>
+
 ### Support
 
 If you encounter any issues or have further questions, please reach out to our support team at support@flow.com.sxd
