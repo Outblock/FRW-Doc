@@ -42,3 +42,4 @@
 * [💻 Extension Wallet Backup Guide](extension-wallet-backup-guide.md)
 * [🖥️ Extension Wallet Restore Guide](extension-wallet-restore-guide.md)
 * [🔁 Extension Update Guide](extension-update-guide.md)
+* [🪙 FLOW wallet init token guide](flow-wallet-init-token-guide.md)
