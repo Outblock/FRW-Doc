@@ -43,3 +43,4 @@
 * [🖥️ Extension Wallet Restore Guide](extension-wallet-restore-guide.md)
 * [🔁 Extension Update Guide](extension-update-guide.md)
 * [🪙 FLOW wallet init token guide](flow-wallet-init-token-guide.md)
+* [💾 Extension Private Key and Seed Phrase Guide](extension-private-key-and-seed-phrase-guide.md)
