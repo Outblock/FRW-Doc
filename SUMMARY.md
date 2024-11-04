@@ -44,3 +44,4 @@
 * [🔁 Extension Update Guide](extension-update-guide.md)
 * [🪙 FLOW wallet init token guide](flow-wallet-init-token-guide.md)
 * [💾 Extension Private Key and Seed Phrase Guide](extension-private-key-and-seed-phrase-guide.md)
+* [⛵ Mobile Wallet Export Log Guide](mobile-wallet-export-log-guide.md)
