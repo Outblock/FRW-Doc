@@ -30,7 +30,7 @@ Your backups are encrypted using your wallet PIN code. You must remember or writ
 
 **Step 3:** Select at least two types of backup options to ensure your assets are protected.
 
-<figure><img src="../.gitbook/assets/IMG_7134 (1).jpg" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/IMG_7134.jpg" alt="" width="188"><figcaption></figcaption></figure>
 
 **Step 4:** If prompted, create a new PIN or verify your existing PIN to proceed with the backup process.
 

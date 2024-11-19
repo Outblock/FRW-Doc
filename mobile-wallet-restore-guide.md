@@ -40,7 +40,7 @@ If you previously backed up your account using the multi-backup method \[[multi-
 
 **Step 2:** Select at least two types of backup options to restore your wallet.
 
-<figure><img src=".gitbook/assets/IMG_7134.jpg" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/IMG_7134 (1).jpg" alt="" width="188"><figcaption></figcaption></figure>
 
 **Step 3:** If you choose google drive backup, follow the prompts to restore wallet in Google Drive.&#x20;
 
