@@ -1,3 +1,7 @@
+---
+description: This is the page to tell user how to upgrade their extension manually
+---
+
 # 🔁 Extension Update Guide
 
 Welcome to the Flow Wallet Extension Version Update Guide! Keeping your extension up to date is essential for ensuring the best performance, security, and access to the latest features. In this guide, we will walk you through the process of manually updating to the newest version of the Flow Wallet Extension. Whether you’re experiencing issues or simply want to take advantage of new enhancements, this guide will provide you with step-by-step instructions to ensure a smooth update experience. Let’s get started!
