@@ -6,21 +6,21 @@ Follow the steps below to export logs from the Flow Mobile Wallet:
 
 **Step 1:** Navigate to the **Settings** page and  locate the **Developer Mode** section.
 
-<figure><img src=".gitbook/assets/IMG_7233.PNG" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/IMG_7233.PNG" alt="" width="188"><figcaption></figcaption></figure>
 
 **Step 2:** Toggle the switch to turn on **Developer Mode**.
 
-<figure><img src=".gitbook/assets/IMG_7234.jpg" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/IMG_7234.jpg" alt="" width="375"><figcaption></figcaption></figure>
 
 **Step 3: Export the Log**
 
 * For **Android Users**: Click the **Export Log** button.
 
-<figure><img src=".gitbook/assets/Screenshot_20241016-121231.png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot_20241016-121231.png" alt="" width="188"><figcaption></figcaption></figure>
 
 * For **iOS Users**: Tap the **Share Log File** button.
 
-<figure><img src=".gitbook/assets/IMG_7235.jpg" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/IMG_7235.jpg" alt="" width="375"><figcaption></figcaption></figure>
 
 Once you have exported the logs, you can share them with our support team for further analysis. Thank you for helping us improve the Flow Wallet!&#x20;
 

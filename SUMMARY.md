@@ -35,13 +35,10 @@
 
 * [🔐 Mobile Wallet Backup Guide](tutorial/mobile-wallet-backup-guide.md)
 * [💸 Move Assets between Flow and EVM](tutorial/move-assets-between-flow-and-evm.md)
-
-***
-
-* [📱 Mobile Wallet Restore Guide](mobile-wallet-restore-guide.md)
-* [💻 Extension Wallet Backup Guide](extension-wallet-backup-guide.md)
-* [🖥️ Extension Wallet Restore Guide](extension-wallet-restore-guide.md)
-* [🔁 Extension Update Guide](extension-update-guide.md)
-* [🪙 FLOW wallet init token guide](flow-wallet-init-token-guide.md)
-* [💾 Extension Private Key and Seed Phrase Guide](extension-private-key-and-seed-phrase-guide.md)
-* [⛵ Mobile Wallet Export Log Guide](mobile-wallet-export-log-guide.md)
+* [📱 Mobile Wallet Restore Guide](tutorial/mobile-wallet-restore-guide.md)
+* [💻 Extension Wallet Backup Guide](tutorial/extension-wallet-backup-guide.md)
+* [🖥️ Extension Wallet Restore Guide](tutorial/extension-wallet-restore-guide.md)
+* [🔁 Extension Update Guide](tutorial/extension-update-guide.md)
+* [🪙 FLOW wallet init token guide](tutorial/flow-wallet-init-token-guide.md)
+* [💾 Extension Private Key and Seed Phrase Guide](tutorial/extension-private-key-and-seed-phrase-guide.md)
+* [⛵ Mobile Wallet Export Log Guide](tutorial/mobile-wallet-export-log-guide.md)

@@ -12,11 +12,11 @@ To ensure the security and accessibility of your account, it’s essential to ha
 
 <div>
 
-<figure><img src=".gitbook/assets/Screen Shot 2024-10-09 at 11.27.48 am.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screen Shot 2024-10-09 at 11.27.48 am.png" alt="" width="375"><figcaption></figcaption></figure>
 
  
 
-<figure><img src=".gitbook/assets/Screen Shot 2024-10-09 at 11.28.14 am.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screen Shot 2024-10-09 at 11.28.14 am.png" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -26,23 +26,23 @@ You can back up in your Google Drive in two ways:
 
 1. When you are registering or importing your account, click on **Connect and Backup** in the step shown in the image to back up your account.
 
-<figure><img src=".gitbook/assets/Screen Shot 2024-10-09 at 11.19.25 am.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screen Shot 2024-10-09 at 11.19.25 am.png" alt="" width="375"><figcaption></figcaption></figure>
 
 2. After logging in, go to the **Settings** page → **Backup**, and click the **Sync** button.
 
 <div>
 
-<figure><img src=".gitbook/assets/Screen Shot 2024-10-09 at 11.21.11 am.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screen Shot 2024-10-09 at 11.21.11 am.png" alt="" width="375"><figcaption></figcaption></figure>
 
  
 
-<figure><img src=".gitbook/assets/Screen Shot 2024-10-09 at 11.21.36 am.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screen Shot 2024-10-09 at 11.21.36 am.png" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
 After you’ve completed all the above steps, you’ll find that the backup has been successfully add in your FLOW wallet. This means you’re now ready to restore your account as needed!
 
-<figure><img src=".gitbook/assets/Screen Shot 2024-10-21 at 11.54.26 am.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screen Shot 2024-10-21 at 11.54.26 am.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Support
 
