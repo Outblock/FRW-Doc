@@ -42,7 +42,7 @@ const WalletConnect = () => {
       if (wallets[0]) {
         setAccount(wallets[0].address)
         // create an ethers provider with the last connected wallet provider
-        const ethersProvider = new ethers.BrowserProvider(wallets[0].provider, 'any')
+        const ethersProvider = new ethers.BrowserProvider(flowWalletProvider, 'any')
 
         const { address } = wallets[0].accounts[0]
 

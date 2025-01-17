@@ -19,7 +19,7 @@ const WalletConnect = () => {
     try {
       const client = createWalletClient({
         chain: flowMainnet,
-        transport: custom(window.ethereum!)
+        transport: custom(flowWalletProvider!)
       })
 
       // request user to connect wallet

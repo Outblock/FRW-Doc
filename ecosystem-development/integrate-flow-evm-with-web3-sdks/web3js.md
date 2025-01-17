@@ -15,9 +15,9 @@ const WalletConnect = () => {
     // connect wallet
     const connectWallet = async () => {
         // init web3 
-        const web3 = new Web3(window.ethereum);
+        const web3 = new Web3(flowWalletProvider);
         // connect wallet
-        await window.ethereum.request({ method: 'eth_requestAccounts' });
+        await flowWalletProvider.request({ method: 'eth_requestAccounts' });
         const accounts = await web3.eth.getAccounts();
   
         const chainId = await web3.eth.getChainId();
