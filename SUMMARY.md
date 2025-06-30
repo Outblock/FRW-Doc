@@ -51,3 +51,7 @@
 * [🪙 FLOW wallet init token guide](tutorial/flow-wallet-init-token-guide.md)
 * [💾 Extension Private Key and Seed Phrase Guide](tutorial/extension-private-key-and-seed-phrase-guide.md)
 * [⛵ Mobile Wallet Export Log Guide](tutorial/mobile-wallet-export-log-guide.md)
+
+***
+
+* [🔐 Wallet Revoke key guide](wallet-revoke-key-guide.md)
