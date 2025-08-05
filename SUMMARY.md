@@ -31,6 +31,7 @@
   * [Web3-Onboard](ecosystem-development/integrate-flow-evm-with-web3-sdks/web3-onboard.md)
   * [MIPD](ecosystem-development/integrate-flow-evm-with-web3-sdks/mipd.md)
   * [Others SDKs](ecosystem-development/integrate-flow-evm-with-web3-sdks/others-sdks.md)
+  * [Privy](ecosystem-development/integrate-flow-evm-with-web3-sdks/privy.md)
 
 ## Download
 
