@@ -1,5 +1,7 @@
 ---
 description: 🛠️ Guide to Configuring Privy with Flow Wallet (EVM Support)
+hidden: true
+noIndex: true
 ---
 
 # Privy
