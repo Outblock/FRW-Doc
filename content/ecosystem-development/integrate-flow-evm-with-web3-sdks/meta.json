@@ -1,0 +1,16 @@
+{
+  "title": "Integrate Flow EVM with Web3 SDKs",
+  "icon": "Plug",
+  "pages": [
+    "index",
+    "wagmi",
+    "rainbowkit",
+    "etherjs",
+    "web3js",
+    "viem",
+    "web3-onboard",
+    "mipd",
+    "others-sdks",
+    "privy"
+  ]
+}

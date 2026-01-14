@@ -1,0 +1,24 @@
+{
+  "title": "Flow Wallet Documentation",
+  "pages": [
+    "index",
+    "---Ecosystem Primers---",
+    "flow-reference-wallet-primer",
+    "---FAQ---",
+    "faq",
+    "---Features---",
+    "features",
+    "---Ecosystem Development---",
+    "ecosystem-development",
+    "---Download---",
+    "download",
+    "---Open Source---",
+    "open-source",
+    "---Tutorial---",
+    "tutorial",
+    "---AI Integration---",
+    "ai-integration",
+    "---Other---",
+    "wallet-revoke-key-guide"
+  ]
+}

@@ -1,0 +1,73 @@
+---
+title: 🤖 AI Integration
+description: Documentation integration for AI assistants and language models
+icon: Bot
+---
+
+## LLMs Integration
+
+This documentation provides a special endpoint designed for AI assistants and large language models (LLMs) to easily discover and access our documentation.
+
+### AI-Friendly Documentation Index
+
+We provide a text-based index of all documentation pages that AI tools can fetch to understand the structure and content of this documentation.
+
+**Endpoint:** [`/llms-full.txt`](/llms-full.txt)
+
+This endpoint returns a plain text file containing:
+- Page titles
+- Page descriptions (when available)
+- Direct URLs to each documentation page
+
+### How AI Assistants Use This
+
+AI assistants like Claude, ChatGPT, and other language models can:
+
+1. Fetch the `/llms-full.txt` endpoint
+2. Parse the list of available documentation pages
+3. Direct users to relevant pages based on their questions
+4. Provide accurate information about Flow Wallet features
+
+### Example Usage
+
+When a user asks an AI assistant about Flow Wallet features, the assistant can:
+
+```
+1. Check /llms-full.txt for available documentation
+2. Find relevant pages (e.g., Account Linking, WalletConnect)
+3. Provide direct links to specific documentation
+4. Quote accurate information from the docs
+```
+
+### For Developers
+
+If you're building an AI-powered tool or chatbot that needs to reference Flow Wallet documentation:
+
+```bash
+# Fetch the documentation index
+curl https://your-docs-domain.com/llms-full.txt
+
+# Or locally during development
+curl http://localhost:3000/llms-full.txt
+```
+
+The format is simple and easy to parse:
+
+```
+# Page Title
+
+Description (if available)
+
+URL: /docs/page-path
+
+---
+
+# Next Page Title
+...
+```
+
+### Edit on GitHub
+
+All documentation pages include an "Edit on GitHub" button at the bottom, making it easy to contribute improvements or corrections to the documentation.
+
+**Repository:** [github.com/Outblock/FRW-Doc](https://github.com/Outblock/FRW-Doc)

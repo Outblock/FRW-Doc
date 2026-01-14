@@ -2,7 +2,7 @@
 description: >-
   A reference wallet created ‍for everyone. Trusted. Battle-tested. Beautifully
   designed.
-cover: .gitbook/assets/64d3dd501a8ffd8b19b928a1_Banner (3).png
+cover: .gitbook/assets/banner.png
 coverY: 94
 ---
 
