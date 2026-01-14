@@ -1,0 +1,15 @@
+{
+  "title": "Tutorial",
+  "icon": "BookOpen",
+  "pages": [
+    "mobile-wallet-backup-guide",
+    "move-assets-between-flow-and-evm",
+    "mobile-wallet-restore-guide",
+    "extension-wallet-backup-guide",
+    "extension-wallet-restore-guide",
+    "extension-update-guide",
+    "flow-wallet-init-token-guide",
+    "extension-private-key-and-seed-phrase-guide",
+    "mobile-wallet-export-log-guide"
+  ]
+}

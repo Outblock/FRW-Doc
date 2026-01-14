@@ -1,0 +1,12 @@
+{
+  "title": "Features",
+  "icon": "Sparkles",
+  "pages": [
+    "account-linking",
+    "walletconnect",
+    "human-readable-transactions",
+    "flow-client-library-fcl",
+    "secure-enclave",
+    "account-recovery"
+  ]
+}
