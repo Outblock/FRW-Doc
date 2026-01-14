@@ -1,5 +1,4 @@
 import { readFileSync, writeFileSync } from 'fs';
-import { join } from 'path';
 
 function convertGitBookToFumadocs(content: string): string {
   const frontMatterRegex = /^---\s*\n([\s\S]*?)\n---\s*\n/;

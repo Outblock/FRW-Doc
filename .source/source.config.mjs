@@ -1,10 +1,7 @@
 // source.config.ts
 import { defineConfig, defineDocs } from "fumadocs-mdx/config";
 var { docs, meta } = defineDocs({
-  dir: "content",
-  docs: {
-    includeProcessedMarkdown: true
-  }
+  dir: "content"
 });
 var source_config_default = defineConfig();
 export {
