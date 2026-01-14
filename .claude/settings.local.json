@@ -12,7 +12,10 @@
       "Bash(grep:*)",
       "Bash(ls:*)",
       "Skill(commit-commands:commit-push-pr)",
-      "Bash(git checkout:*)"
+      "Bash(git checkout:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push)"
     ]
   }
 }

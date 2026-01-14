@@ -1,5 +1,5 @@
 import { readFileSync, writeFileSync, readdirSync, statSync, mkdirSync, existsSync } from 'fs';
-import { join, dirname, basename, relative } from 'path';
+import { join } from 'path';
 
 interface FrontMatter {
   title?: string;
