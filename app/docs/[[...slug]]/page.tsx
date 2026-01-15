@@ -23,7 +23,7 @@ export default async function Page(props: {
       <DocsTitle>{page.data.title}</DocsTitle>
       <DocsDescription>{page.data.description}</DocsDescription>
       <a
-        href={`https://github.com/onflow/FRW-doc/blob/main/content${page.url}.mdx`}
+        href={`https://github.com/onflow/FRW-doc/blob/main/content${page.url.replace('/docs', '')}.mdx`}
         rel="noreferrer noopener"
         target="_blank"
         className="inline-flex items-center gap-1.5 px-2.5 py-1 text-xs font-medium border rounded-md text-fd-muted-foreground hover:text-fd-foreground hover:bg-fd-accent transition-colors mb-4 w-fit"
