@@ -15,7 +15,14 @@
       "Bash(git checkout:*)",
       "Bash(git add:*)",
       "Bash(git commit:*)",
-      "Bash(git push)"
+      "Bash(git push)",
+      "Bash(lsof:*)",
+      "Bash(xargs ps:*)",
+      "mcp__plugin_playwright_playwright__browser_close",
+      "Bash(PORT=3002 bun dev:*)",
+      "Bash(kill:*)",
+      "Bash(pkill:*)",
+      "Bash(git remote set-url:*)"
     ]
   }
 }

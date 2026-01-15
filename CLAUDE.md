@@ -148,7 +148,7 @@ Navigation is controlled by `meta.json` files in each directory:
 
 - **Feature**: Each documentation page has an "Edit on GitHub" button at the bottom
 - **Implementation**: Located in `app/docs/[[...slug]]/page.tsx`
-- **Repository**: https://github.com/Outblock/FRW-Doc
+- **Repository**: https://github.com/onflow/FRW-doc
 - **Behavior**: Opens the source MDX file in GitHub for editing
 
 ### LLMs Integration
@@ -207,4 +207,4 @@ Navigation is controlled by `meta.json` files in each directory:
 - Account Linking: https://flow.com/account-linking
 - Fumadocs Documentation: https://fumadocs.vercel.app/
 - Hybrid Custody: https://developers.flow.com/concepts/hybrid-custody
-- Flow GitHub Organization: https://github.com/orgs/Outblock/
+- Flow GitHub Organization: https://github.com/orgs/onflow/
